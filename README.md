@@ -27,6 +27,10 @@ ts-node -v
 tsc file_name.ts
 ```
 
+## Tool to help us run typescript in browser
+```
+npm install -g parcel-bundler
+```
 
 ## Table of contents
 
