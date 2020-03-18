@@ -1,3 +1,18 @@
+/*Notes
+
+1. If a value is used and datatype is not mentioned at the time of declaration, then typescript will infer the type of variable
+2. If a value is not used and single declared a variable without type , then typescript will use 'any' type to it 
+
+  Eg:  Following example is valid
+       let x;
+       x = 2
+	   x = 'helloworld'
+	   
+
+*/
+
+
+
 let isDone : boolean = true;
 console.log(isDone, typeof(isDone));
 
@@ -25,6 +40,10 @@ console.log(city, typeof(city));
 
 const wish :  undefined = undefined;
 console.log(wish, typeof(wish));
+
+let colors : Array<string> =  ['red', 'blue', 'green', 'yellow']
+colors.push('orange')
+console.log(colors, typeof(colors))
 
 
 

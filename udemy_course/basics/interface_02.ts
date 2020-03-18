@@ -42,6 +42,7 @@ printCar(oldCar);
 
 // what if we want to use only summary()  in function
 
+// more generic interface to use with more reusable code with different objects
 interface Reportable {
     summary() : string
 };
